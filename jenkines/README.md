@@ -40,3 +40,28 @@ http://<your-ec2-public-ip>:8080
 
 Paste the password → Install suggested plugins → Create admin user
 
+Install Maven Plugin
+Search the plugin by name (Maven Integration plugin, Email Notification plugin) .
+
+Install Both Plugins
+Download now and restart
+
+Configure Maven in Jenkins
+Manage Jenkins → Global Tool Configuration
+
+Scroll to Maven:
+
+Click Add Maven
+Name: Maven-3
+Check Install automatically
+
+Configure Email (SMTP Setup)
+Manage Jenkins → Configure System
+
+Fill Email Settings:
+SMTP Server (Example: Gmail)
+Use SMTP Authentication:
+Username: your email
+Password: app password
+
+  
